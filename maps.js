@@ -1,0 +1,11 @@
+let map = new Map();  
+    map.set('John', 'author');  
+    map.set('arry', 'publisher');  
+    map.set('Mary', 'subscriber');  
+    map.set('James', 'Distributor');  
+var itr = map.values();  
+console.log(itr.next());  
+console.log(itr.next());  
+console.log(itr.next()); 
+console.log(itr.next()); 
+console.log(map.size);  
